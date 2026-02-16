@@ -10,6 +10,10 @@ v. 2/15/2026
 
 import random
 
+def get_dice_term(dice_one, dice_two):
+    total = dice_one + dice_two
+    print(total)
+
 
 def main():
     print("test")
@@ -21,5 +25,7 @@ def main():
     print(f"dice one: {dice_one}")
     print(f"dice two: {dice_two}")
     print(f"total: {total}")
+
+    get_dice_term(dice_one, dice_two) #test
 
 main()
