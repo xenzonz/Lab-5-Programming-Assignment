@@ -59,8 +59,9 @@ def main():
         term = get_dice_term(dice_one, dice_two) 
         print(term) 
 
-        user_choice = input("test tpye q")
+        user_choice = input("Roll again? type Q to quit, Y to continue: ").strip().lower()
         if user_choice == "q":
+            print("Goodbye")
             break
 
 
