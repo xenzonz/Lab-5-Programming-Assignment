@@ -30,8 +30,8 @@ def get_dice_term(dice_one, dice_two):
 def main():
     print("test")
     
-    dice_one = random.randint(2, 3) #TTEST RETURN TO 1, 6
-    dice_two = random.randint(2, 3)
+    dice_one = random.randint(1, 3) #TTEST RETURN TO 1, 6
+    dice_two = random.randint(1, 3)
     total = dice_one + dice_two
 
     print(f"dice one: {dice_one}")
