@@ -9,3 +9,6 @@ v. 2/15/2026
 
 import random
 
+dice_roll = random.randint(1, 6)
+
+print(dice_roll)
