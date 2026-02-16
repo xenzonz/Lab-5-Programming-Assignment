@@ -10,12 +10,16 @@ v. 2/15/2026
 
 import random
 
-dice_one = random.randint(1, 6)
-dice_two = random.randint(1, 6)
-
-print(dice_one, dice_two)
 
 def main():
     print("test")
+    
+    dice_one = random.randint(1, 6)
+    dice_two = random.randint(1, 6)
+    total = dice_one + dice_two
+
+    print(f"dice one: {dice_one}")
+    print(f"dice two: {dice_two}")
+    print(f"total: {total}")
 
 main()
