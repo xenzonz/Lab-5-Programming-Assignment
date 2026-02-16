@@ -45,7 +45,7 @@ def get_dice_term(dice_one, dice_two):
 
 
 def main():
-    print("test123")
+    #print("test123")
     
     while True:
         dice_one = random.randint(1, 6)
@@ -57,9 +57,9 @@ def main():
         print(f"Dice Total: {total}")
 
         term = get_dice_term(dice_one, dice_two) 
-        print(term) 
+        print(f"Dice Term: {term}") 
 
-        user_choice = input("Roll again? type Q to quit, Y to continue: ").strip().lower()
+        user_choice = input("Roll again? type Q to quit, any key to continue: ").strip().lower()
         if user_choice == "q":
             print("Goodbye")
             break
