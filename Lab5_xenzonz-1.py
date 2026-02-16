@@ -17,11 +17,11 @@ def get_dice_term(dice_one, dice_two):
 
     if dice_one == 1 and dice_two == 1: 
         return "Snake Eyes"
-    elif dice_one == 2 and dice_two == 1:
+    elif dice_one == 2 and dice_two == 1 or dice_one == 2 and dice_two == 1:
         return "Ace Caught a Deuce"
     elif dice_one == 2 and dice_two == 2:
         return "Little Joe from Kokomo"
-    elif dice_one == 3 and dice_two == 2:
+    elif dice_one == 3 and dice_two == 2 or dice_one == 2 and dice_two == 3 or dice_one == 4 and dice_two == 1 or dice_one == 1 and dice_two == 4:
         return "Little Phoebe"
     
 
