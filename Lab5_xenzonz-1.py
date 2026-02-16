@@ -14,3 +14,8 @@ dice_one = random.randint(1, 6)
 dice_two = random.randint(1, 6)
 
 print(dice_one, dice_two)
+
+def main():
+    print("test")
+
+main()
