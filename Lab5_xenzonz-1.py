@@ -45,17 +45,23 @@ def get_dice_term(dice_one, dice_two):
 
 
 def main():
-    print("test")
+    print("test123")
     
-    dice_one = random.randint(1, 3) #TTEST RETURN TO 1, 6
-    dice_two = random.randint(1, 3)
-    total = dice_one + dice_two
+    while True:
+        dice_one = random.randint(1, 6)
+        dice_two = random.randint(1, 6)
+        total = dice_one + dice_two
 
-    print(f"dice one: {dice_one}")
-    print(f"dice two: {dice_two}")
-    print(f"total: {total}")
+        print(f"Dice One: {dice_one}")
+        print(f"Dice Two: {dice_two}")
+        print(f"Dice Total: {total}")
 
-    term = get_dice_term(dice_one, dice_two) 
-    print(term) 
+        term = get_dice_term(dice_one, dice_two) 
+        print(term) 
+
+        user_choice = input("test tpye q")
+        if user_choice == "q":
+            break
+
 
 main()
