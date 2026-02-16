@@ -38,7 +38,7 @@ def get_dice_term(dice_one, dice_two):
     elif dice_one == 6 and dice_two == 6:
         return "Boxcars"
     else:
-        return "No special term for this combination of numbers"
+        return "No special term for this combination of dice"
 
     
 
