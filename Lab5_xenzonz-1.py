@@ -12,20 +12,26 @@ import random
 
 def get_dice_term(dice_one, dice_two):
     total = dice_one + dice_two
-    print(total)
+
+    print(total) #test
+
+    if dice_one == 1 and dice_two == 1: 
+        return "Snake Eyes"
+
 
 
 def main():
     print("test")
     
-    dice_one = random.randint(1, 6)
-    dice_two = random.randint(1, 6)
+    dice_one = random.randint(1, 1) #TTEST RETURN TO 1, 6
+    dice_two = random.randint(1, 1)
     total = dice_one + dice_two
 
     print(f"dice one: {dice_one}")
     print(f"dice two: {dice_two}")
     print(f"total: {total}")
 
-    get_dice_term(dice_one, dice_two) #test
+    term = get_dice_term(dice_one, dice_two) 
+    print(term) 
 
 main()
